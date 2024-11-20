@@ -1,1 +1,13 @@
+Resumo:
+media_query.css: Responsividade
+reset.css: Remove os estilos padrões dos navegadores
+root.css: Estilos globais
+style.css: Estilos específicos dos elementos
 
+> media_query.css: Contém as regras que permitem criar layouts responsivos, adaptando o design do site para telas menores (como smartphones) ou maiores (como desktops).
+
+> reset.css: Este arquivo serve para "zerar" os estilos padrão dos navegadores, garantindo um ponto de partida para aplicar suas próprias regras CSS.
+
+> root.css: Este arquivo geralmente contém as regras CSS mais gerais e importantes para o projeto, como a definição da fonte padrão, cores, espaçamentos e outros elementos globais do design. Ele serve como uma base para os outros arquivos CSS.
+
+> style.css: Este é o arquivo principal onde são definidas as regras CSS específicas para os elementos HTML da página. Ele contém a maior parte do código CSS para estilizar os elementos individuais do site.
