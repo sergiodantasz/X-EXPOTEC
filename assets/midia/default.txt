@@ -2,6 +2,7 @@ As midias devem ser nomeadas da seguinte forma: "mídia" + número
 Exemplo: 
 midia1.jpg
 midia2.mp4
+midia3.png
 ...
 
 No documento escrito deve ser referênciado somente o nome, da mesma forma.
