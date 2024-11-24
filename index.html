@@ -5,9 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXPOTEC - IDEALISTAS</title>
     <!-- ESTILOS -->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-    <script src="script.js" type="module"></script>
+    <div class="pop_up invisible">
+        <div class="content">
+        </div>
+        <div id="voltar">
+            <i class="fa-solid fa-arrow-left" style="font-size: 20px;"></i>
+        </div>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="top_hero">
+                <h1>Desvendando a História</h1>
+                <a href=".">Sobre a sala</a>
+            </div>
+            <div class="bottom_hero">
+                <h1>Ditadura no Brasil</h1>
+                <h2>Pesquisas Estudantis sobre a Ditadura</h2>
+                <h3>A Ditadura nas Mãos dos Jovens Pesquisadores</h3>
+            </div>
+        </section>
+        <div class="cards_content">
+            <div class="scroll_slide" id="left_slider" style="display: none;">
+                <i class="fa-solid fa-arrow-left" style="font-size: 24px; color: #f2f2f2e1;"></i>
+            </div>
+            <div class="cards">
+                <section class="gp1 arq">
+                    <h1>Resistência e repressão</h1>
+                    <div class="arq_btn">
+                        Ler Pesquisa
+                    </div>
+                </section>
+                <section class="gp2 arq">
+                    <h1>Arte e Censura no cenário do período de Ditadura Militar no Brasil</h1>
+                    <div class="arq_btn">
+                        Ler Pesquisa
+                    </div>
+                </section>
+                <section class="gp3 arq">
+                    <h1>O Rio Grande do Norte no contexto da Ditadura.</h1>
+                    <div class="arq_btn">
+                        Ler Pesquisa
+                    </div>
+                </section>
+                <section class="gp4 arq">
+                    <h1>Abertura politica</h1>
+                    <div class="arq_btn">
+                        Ler Pesquisa
+                    </div>
+                </section>
+                <section class="gp5 arq">
+                    <h1>Estado e Propaganda no período da Ditadura civil-militar empresarial</h1>
+                    <div class="arq_btn">
+                        Ler Pesquisa
+                    </div>
+                </section>
+            </div>
+            <div class="scroll_slide" id="right_slider">
+                <i class="fa-solid fa-arrow-right" style="font-size: 24px; color: #f2f2f2e1;"></i>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bc56083f1b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 </html>
