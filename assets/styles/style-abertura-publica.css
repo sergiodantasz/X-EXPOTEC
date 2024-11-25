@@ -1,0 +1,88 @@
+.content {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+#introduction .title {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.paragraf {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+#introduction .paragraf p {
+  text-indent: 4rem;
+  width: 80rem;
+}
+
+#introduction .paragraf-2 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#introduction .paragraf-2 p {
+  width: 80rem;
+}
+
+.content-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.list-ul {
+  width: 80rem;
+}
+
+.content-li {
+  padding: 0.3rem;
+}
+
+.title-three {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.title-three h3 {
+  width: 80rem;
+}
+
+.title-three h4 {
+  width: 80rem;
+  padding-bottom: 1rem;
+}
+
+.para-main {
+  text-indent: 4rem;
+  width: 80rem;
+  padding-top: 2rem;
+}
+
+#sociais .title-three h3 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#constituicao .title-three h3 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#referencias .paragraf-text {
+  width: 70rem;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 1rem;
+}
