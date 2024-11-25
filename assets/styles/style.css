@@ -5,14 +5,16 @@ body {
 
    margin: 0;
    padding: 12px;
-   
+
    background-color: var(--cor-fundo);
 
    transition: all 0.3s;
 }
+
 body::-webkit-scrollbar {
    width: 0;
 }
+
 main {
    display: grid;
 
@@ -20,7 +22,8 @@ main {
    grid-template-columns: repeat(4, 1fr);
    gap: 6px;
 }
-main > .cards_content {
+
+main>.cards_content {
    display: flex;
    overflow-x: scroll;
 
@@ -31,9 +34,11 @@ main > .cards_content {
    grid-column-end: 5;
 
 }
-main > .cards_content::-webkit-scrollbar {
+
+main>.cards_content::-webkit-scrollbar {
    height: 0;
 }
+
 main .cards_content .cards {
    display: flex;
 
@@ -42,6 +47,7 @@ main .cards_content .cards {
    height: 100%;
    width: 119.6%;
 }
+
 main .cards_content .scroll_slide {
    display: flex;
    position: absolute;
@@ -54,14 +60,16 @@ main .cards_content .scroll_slide {
    align-items: center;
    justify-content: center;
 }
+
 main .cards_content #right_slider {
    align-self: flex-end;
 
    background: #ffffff;
    background: linear-gradient(90deg, #ffffff00 0%, var(--cor-fundo) 90%);
 }
+
 main .cards_content #left_slider {
-   background: rgb(30,30,30);
+   background: rgb(30, 30, 30);
    background: linear-gradient(90deg, var(--cor-fundo) 10%, #ffffff00 100%);
 }
 
@@ -78,19 +86,21 @@ main .cards_content #left_slider {
 
    object-fit: cover;
 }
+
 .hero .top_hero {
    display: flex;
 
    width: 90%;
    height: 54px;
-   
+
    align-items: center;
    gap: 64px;
 
    background-color: var(--hero-color);
    border-radius: 30px 30px 0 0;
 }
-.hero .top_hero h1{
+
+.hero .top_hero h1 {
    cursor: default;
 
    margin-left: 30px;
@@ -99,6 +109,7 @@ main .cards_content #left_slider {
    font-weight: 500;
    letter-spacing: 1px;
 }
+
 .hero .top_hero a {
    text-decoration: none;
 
@@ -108,9 +119,11 @@ main .cards_content #left_slider {
 
    transition: all 0.5s;
 }
+
 .hero .top_hero a:hover {
    text-decoration: underline;
 }
+
 .top_hero::before {
    content: "";
 
@@ -126,6 +139,7 @@ main .cards_content #left_slider {
    background-color: transparent;
    box-shadow: -18px 18px 0 var(--hero-color);
 }
+
 .top_hero::after {
    content: "IFRN - CN";
    display: flex;
@@ -147,6 +161,7 @@ main .cards_content #left_slider {
    font-weight: 500;
    letter-spacing: 1px;
 }
+
 .hero .bottom_hero {
    display: flex;
 
@@ -160,18 +175,21 @@ main .cards_content #left_slider {
    background-color: var(--hero-color);
    border-radius: 0 30px 30px 30px;
 }
-.hero .bottom_hero h1{
+
+.hero .bottom_hero h1 {
    font-size: 56px;
    font-weight: 700;
    color: #1e1e1e;
    letter-spacing: 1px;
 }
+
 .hero .bottom_hero h2 {
    font-size: 32px;
    font-weight: 600;
    color: #1e1e1e;
    letter-spacing: 1px;
 }
+
 .hero .bottom_hero h3 {
    margin-top: 10px;
    font-size: 18px;
@@ -187,6 +205,7 @@ main .cards_content #left_slider {
 
    flex-wrap: wrap;
 }
+
 .arq .arq_btn {
    display: flex;
 
@@ -207,9 +226,11 @@ main .cards_content #left_slider {
    font-weight: 600;
    color: #1e1e1e;
 }
+
 .arq .arq_btn:hover {
    border: 2px solid #1e1e1e;
 }
+
 .arq h1 {
    font-size: 28px;
    font-weight: 600;
@@ -221,18 +242,22 @@ main .cards_content #left_slider {
 
    transition: all 0.3s;
 }
+
 .gp2 {
    border-radius: 30px;
    background-color: var(--grupo-dois);
 }
+
 .gp3 {
    border-radius: 30px;
    background-color: var(--grupo-tres);
 }
+
 .gp4 {
    border-radius: 30px;
    background-color: var(--grupo-quatro);
 }
+
 .gp5 {
    border-radius: 30px;
    background-color: var(--grupo-tres);
@@ -242,22 +267,21 @@ main .cards_content #left_slider {
 .pop_up {
    display: none;
    overflow: hidden;
-   
+
    position: fixed;
    z-index: 1;
-   
+
    height: 97vh;
    width: 94.5rem;
-   /* aspect-ratio: 2.13/1; */
    
    border-radius: 18px;
    background-color: #f9f9f9;
    box-shadow: 0 0 50px 50px #000000d5;
-   
+
    flex-direction: column;
    justify-content: flex-end;
    align-items: center;
-   
+
    animation: aparecer 0.3s;
    transition: all 0.5s;
 }
@@ -268,9 +292,11 @@ main .cards_content #left_slider {
    width: 100%;
    height: 100%;
 }
+
 .pop_up .content::-webkit-scrollbar {
    width: 0;
 }
+
 .c1 {
    width: 100%;
    height: 1400px;
@@ -280,12 +306,12 @@ main .cards_content #left_slider {
 .pop_up #voltar {
    display: flex;
    position: absolute;
-   
+
    aspect-ratio: 1/1;
    width: 70px;
-   
+
    margin: 0 0 12px 12px;
-   
+
    align-self: flex-start;
 
    justify-content: center;
@@ -293,16 +319,19 @@ main .cards_content #left_slider {
 
    cursor: pointer;
 }
+
 #voltar i {
    color: #1e1e1e6e;
 
    transition: all 0.3s;
 }
+
 #voltar:hover i {
    color: #1e1e1e;
 
    transform: scale(1.2);
 }
+
 #voltar:hover::before {
    content: "voltar";
    position: absolute;
@@ -311,6 +340,7 @@ main .cards_content #left_slider {
 
    transform: translatey(24px);
 }
+
 .voltar {
    animation: sumir 0.3s;
 }
@@ -322,16 +352,19 @@ main .cards_content #left_slider {
       transform: translateY(-15px);
       box-shadow: 0 0 0 transparent;
    }
+
    100% {
       opacity: 1;
       transform: translateY(1px);
       box-shadow: 0 0 50px 50px #000000d5;
    }
 }
+
 @keyframes sumir {
    0% {
       opacity: 1;
    }
+
    100% {
       display: none;
       opacity: 0;
