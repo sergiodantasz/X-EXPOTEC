@@ -314,6 +314,43 @@ main .cards_content #left_slider {
    animation: sumir 0.3s;
 }
 
+/* Estado Propaganda Estilos */
+
+.container-estado-propaganda {
+   margin: 0;
+   background-size: cover;
+   position: relative;
+}
+
+.background_one {
+   background-image: url(../midia/getulio-vargas.jpg);
+}
+
+.color_white {
+   color: white;
+}
+
+.overlay {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 2rem;
+   margin: 0;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 2rem;
+}
+
+.title-img-container {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.title-estado-propaganda {
+   font-size: 2rem;
+   font-weight: 500;
+}
+
 /* ANIMAÇÕES */
 
 @keyframes aparecer {
