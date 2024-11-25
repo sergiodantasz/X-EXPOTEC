@@ -22,9 +22,11 @@
     background-image: url(../midia/grupo_1/imprensa.jpg);
  }
  
- 
  .color_white {
     color: white;
+    font-size: 1.25rem;
+    word-spacing: 0.3rem;
+    line-height: 1.5rem;
  }
  
  .overlay {
@@ -34,7 +36,7 @@
     gap: 2rem;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 2rem;
+    padding: 8rem;
     align-content: center;
  }
  

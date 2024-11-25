@@ -7,14 +7,39 @@ grupos.forEach(grupo => {
     grupo.onclick = () => {
         pop_up.classList.remove('voltar');
         pop_up.style.display = 'flex';
+
+        ClassName = '.' + grupo.id;
+    
+        Artigo = document.querySelector(ClassName);
+        Artigo.style.display = "block";
+
+        if (grupo.id == 'first') {
+            BtnVoltar = document.getElementById('btn_voltar');
+            BtnVoltar.classList.remove('cor_default');
+            BtnVoltar.classList.add('cor_branca');
+            btnVoltar.classList.add('v_style');
+        } else {
+            BtnVoltar = document.getElementById('btn_voltar');
+            BtnVoltar.classList.remove('cor_branca');
+            BtnVoltar.classList.add('cor_default');
+            btnVoltar.classList.remove('v_style');
+        }
     };
 });
+
+function LogDoc () {
+    Lista = document.querySelectorAll('.volt');
+    Lista.forEach(DocT => {
+        DocT.style.display = 'none';
+    });
+}
 
 btnVoltar.onclick = () => {
     pop_up.classList.add('voltar');
     setTimeout(() => {
         pop_up.style.display = 'none';
     }, 300);
+    LogDoc();
 };
 
 const LeftScroll = document.getElementById('right_slider');
