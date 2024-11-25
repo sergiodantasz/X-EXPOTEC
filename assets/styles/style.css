@@ -40,7 +40,7 @@ main .cards_content .cards {
    gap: 6px;
 
    height: 100%;
-   width: 200%;
+   width: 119.6%;
 }
 main .cards_content .scroll_slide {
    display: flex;
@@ -315,7 +315,6 @@ main .cards_content #left_slider {
 }
 
 /* ANIMAÇÕES */
-
 @keyframes aparecer {
    0% {
       opacity: 0;
