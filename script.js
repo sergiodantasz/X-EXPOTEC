@@ -48,7 +48,7 @@ const GrupoUM = document.querySelector('.gp1');
 var margem = 0;
 
 LeftScroll.onclick = () => {
-    GrupoUM.style.marginLeft = '-17.5rem';
+    GrupoUM.classList.add('margin_left');
     LeftScroll.classList.add('voltar');
     RightScroll.style.display = 'flex';
     setTimeout(() => {
@@ -56,7 +56,7 @@ LeftScroll.onclick = () => {
     }, 301);
 }
 RightScroll.onclick = () => {
-    GrupoUM.style.marginLeft = '0';
+    GrupoUM.classList.remove('margin_left');
     RightScroll.classList.add('voltar');
     LeftScroll.style.display = 'flex';
     setTimeout(() => {

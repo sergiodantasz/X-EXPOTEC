@@ -72,6 +72,9 @@ main .cards_content #left_slider {
    background: rgb(30, 30, 30);
    background: linear-gradient(90deg, var(--cor-fundo) 10%, #ffffff00 100%);
 }
+.margin_left {
+   margin-left: -17.5rem;
+}
 
 /* HERO SECTION  */
 .hero {
