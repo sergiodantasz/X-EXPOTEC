@@ -1,111 +1,114 @@
 /* Estado Propaganda Estilos */
 
 .container-estado-propaganda {
-    margin: 0;
-    background-size: cover;
-    position: relative;
- }
- 
- .background_one {
-    background-image: url(../midia/grupo_1/getulio-vargas.jpg);
- }
- 
- .background_two {
-    background-image: url(../midia/grupo_1/imprensa.jpg);
- }
- 
- .background_three {
-    background-image: url(../midia/grupo_1/PIB.jpg);
- }
- 
- .background_four {
-    background-image: url(../midia/grupo_1/imprensa.jpg);
- }
- 
- .color_white {
-    color: white;
-    font-size: 1.25rem;
-    word-spacing: 0.3rem;
-    line-height: 1.5rem;
- }
- 
- .overlay {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 8rem;
-    align-content: center;
- }
- 
- .title-img-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
- }
- 
- .center-img {
-    margin: 0 auto;
- }
- 
- .title-estado-propaganda {
-    font-size: 2rem;
-    font-weight: 500;
- }
- 
- .title-estado-propaganda_h2 {
-    font-size: 1.7rem;
-    font-weight: 500;
- }
- 
- .ul-lis-style {
-    list-style: inside;
- }
- 
- .content-container-es-prp {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
- }
+   margin: 0;
+   background-size: cover;
+   position: relative;
+}
 
- .size-img {
-    border-radius: 9px;
- }
- 
- /* Responsividade para tablets */ @media (max-width: 768px) { 
-    .overlay {
-       flex-direction: column;
-    }
- 
-    .title-estado-propaganda {
-       font-size: 1.5rem;
-    }
- 
-    .title-estado-propaganda_h2 {
-       font-size: 1.3rem;
-    }
-    .size-img { width: 100%; height: auto; }
- 
- } /* Responsividade para celulares */
- @media (max-width: 480px) {
-    .overlay {
-    flex-direction: column;
-    }
- 
-    .title-estado-propaganda {
-       font-size: 1.2rem;
-    }
- 
-    .title-estado-propaganda_h2 {
-       font-size: 1rem;
-    }
- 
-    .content-container-es-prp {
-       padding: 1rem;
-    }
-    
-    .size-img { width: 50%; height: auto; }
- 
- }
+.background_one {
+   background-image: url(../midia/grupo_1/getulio-vargas.jpg);
+}
+
+.background_two {
+   background-image: url(../midia/grupo_1/imprensa.jpg);
+}
+
+.background_three {
+   background-image: url(../midia/grupo_1/PIB.jpg);
+}
+
+.background_four {
+   background-image: url(../midia/grupo_1/imprensa.jpg);
+}
+
+.color_white {
+   color: white;
+   font-size: 1.25rem;
+   word-spacing: 0.3rem;
+   line-height: 1.5rem;
+}
+
+.overlay {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 2rem;
+   margin: 0;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 8rem;
+   align-content: center;
+}
+
+.title-img-container {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.center-img {
+   margin: 0 auto;
+}
+
+.title-estado-propaganda {
+   font-size: 2rem;
+   font-weight: 500;
+}
+
+.title-estado-propaganda_h2 {
+   font-size: 1.7rem;
+   font-weight: 500;
+}
+
+.ul-lis-style {
+   list-style: inside;
+}
+
+.content-container-es-prp {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.size-img {
+   border-radius: 9px;
+}
+.size-img:nth-child(2) {
+   width: 60%;
+}
+
+/* Responsividade para tablets */ @media (max-width: 768px) { 
+   .overlay {
+      flex-direction: column;
+   }
+
+   .title-estado-propaganda {
+      font-size: 1.5rem;
+   }
+
+   .title-estado-propaganda_h2 {
+      font-size: 1.3rem;
+   }
+   .size-img { width: 100%; height: auto; }
+
+} /* Responsividade para celulares */
+@media (max-width: 480px) {
+   .overlay {
+   flex-direction: column;
+   }
+
+   .title-estado-propaganda {
+      font-size: 1.2rem;
+   }
+
+   .title-estado-propaganda_h2 {
+      font-size: 1rem;
+   }
+
+   .content-container-es-prp {
+      padding: 1rem;
+   }
+   
+   .size-img { width: 50%; height: auto; }
+
+}
