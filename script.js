@@ -23,7 +23,7 @@ const GrupoUM = document.querySelector('.gp1');
 var margem = 0;
 
 LeftScroll.onclick = () => {
-    GrupoUM.style.marginLeft = '-9.3%';
+    GrupoUM.style.marginLeft = '-17.5rem';
     LeftScroll.classList.add('voltar');
     RightScroll.style.display = 'flex';
     setTimeout(() => {

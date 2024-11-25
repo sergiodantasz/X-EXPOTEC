@@ -247,7 +247,8 @@ main .cards_content #left_slider {
    z-index: 1;
    
    height: 97vh;
-   aspect-ratio: 2.13/1;
+   width: 94.5rem;
+   /* aspect-ratio: 2.13/1; */
    
    border-radius: 18px;
    background-color: #f9f9f9;
@@ -335,4 +336,60 @@ main .cards_content #left_slider {
       display: none;
       opacity: 0;
    }
+}
+
+/* GRUPO DOIS */
+.pop_up .second header {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: 4rem 0;
+   padding: 0 8rem;
+}
+.pop_up .second header h1 {
+   font-size: 2rem;
+   font-weight: 600;
+   text-align: center;
+}
+.pop_up .second header h3 {
+   font-size: 1.2rem;
+   margin-top: 1rem;
+}
+.pop_up .second section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   padding: 0 8rem;
+   margin-bottom: 4rem;
+}
+.pop_up .second section:last-child {
+   margin-bottom: 10rem;
+}
+.pop_up .second section h2 {
+   align-self: flex-start;
+   font-size: 2rem;
+   font-weight: 500;
+   margin-bottom: 2rem;
+}
+.pop_up .second section p {
+   text-align: left;
+   font-size: 1.25rem;
+   font-weight: 400;
+   text-indent: 3rem;
+   line-height: 1.5rem;
+   word-spacing: 0.3rem;
+}
+.pop_up .second section img {
+   width: 100%;
+}
+.pop_up .second section .img_content {
+   overflow: hidden;
+   object-fit: cover;
+
+   margin: 4rem 0 0.5rem ;
+
+   aspect-ratio: 2/1;
+   width: 60%;
 }
