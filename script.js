@@ -64,6 +64,17 @@ RightScroll.onclick = () => {
     }, 301);
 }
 
+const InfoRoom = document.querySelectorAll('.info_room');
+
+InfoRoom.forEach(link => {
+    link.onclick = () => {
+        pop_up.classList.remove('voltar');
+        pop_up.style.display = 'flex';
+        InfoSala = document.querySelector('.sixth');
+        InfoSala.style.display = "block";
+    };
+});
+
 ScrollReveal().reveal('.hero');
 ScrollReveal().reveal('.gp1', { delay: 300 });
 ScrollReveal().reveal('.gp2', { delay: 400 });

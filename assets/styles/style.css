@@ -98,7 +98,7 @@ main .cards_content #left_slider {
    height: 54px;
 
    align-items: center;
-   gap: 64px;
+   flex-direction: column;
 
    background-color: var(--hero-color);
    border-radius: 30px 30px 0 0;
@@ -127,8 +127,49 @@ main .cards_content #left_slider {
 .hero .top_hero a:hover {
    text-decoration: underline;
 }
+.hero .top_hero span {
+   height: 100%;
+   display: flex;
+   align-self: flex-start;
+   align-items: center;
+   gap: 64px;
+}
+.hero .top_hero::after {
+   content: "";
 
-.top_hero::before {
+   position: absolute;
+   align-self: flex-end;
+
+   width: 50px;
+   aspect-ratio: 1/1;
+
+   border-radius: 0 30px 0 0;
+
+   box-shadow: 7px -28px 0 5px var(--cor-fundo);
+}
+.hero > span {
+   display: flex;
+   background-color: #fdfdfd;
+   border-radius: 25px;
+}
+.hero .top_half {
+   display: flex;
+
+   flex: 1;
+
+   justify-content: center;
+   align-items: center;
+
+   border-radius: 0 0 0 30px;
+   background-color: var(--cor-fundo);
+
+   font-size: 20px;
+   color: #f9f9f9;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+/* .top_hero::before {
    content: "";
 
    width: 50px;
@@ -164,7 +205,7 @@ main .cards_content #left_slider {
    color: #fdfdfd;
    font-weight: 500;
    letter-spacing: 1px;
-}
+} */
 
 .hero .bottom_hero {
    display: flex;
@@ -454,6 +495,11 @@ main .cards_content #left_slider {
 
    aspect-ratio: 2/1;
    width: 60%;
+}
+
+/* SOBRE A SALA TEMATICA  */
+.sixth {
+   padding: 4rem 8rem;
 }
 
 /* FOOTER  */
