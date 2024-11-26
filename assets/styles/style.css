@@ -72,6 +72,7 @@ main .cards_content #left_slider {
    background: rgb(30, 30, 30);
    background: linear-gradient(90deg, var(--cor-fundo) 10%, #ffffff00 100%);
 }
+
 .margin_left {
    margin-left: -17.5rem;
 }
@@ -275,8 +276,8 @@ main .cards_content #left_slider {
    z-index: 1;
 
    height: 97vh;
-   width: 94.5rem;
-   
+   width: auto;
+
    border-radius: 18px;
    background-color: #f9f9f9;
    box-shadow: 0 0 50px 50px #000000d5;
@@ -330,14 +331,17 @@ main .cards_content #left_slider {
 .cor_default {
    color: #1e1e1e6e;
 }
+
 #voltar:hover .cor_default {
    color: #1e1e1e;
 
    transform: scale(1.2);
 }
+
 .cor_branca {
    color: #f9f9f9b8;
 }
+
 #voltar:hover .cor_branca {
    color: #fff;
 
@@ -352,6 +356,7 @@ main .cards_content #left_slider {
 
    transform: translatey(24px);
 }
+
 .v_style:hover::before {
    color: #fff;
 }
@@ -394,15 +399,18 @@ main .cards_content #left_slider {
    margin: 4rem 0;
    padding: 0 8rem;
 }
+
 .pop_up .second header h1 {
    font-size: 2rem;
    font-weight: 600;
    text-align: center;
 }
+
 .pop_up .second header h3 {
    font-size: 1.2rem;
    margin-top: 1rem;
 }
+
 .pop_up .second section {
    display: flex;
    justify-content: center;
@@ -412,15 +420,18 @@ main .cards_content #left_slider {
    padding: 0 8rem;
    margin-bottom: 4rem;
 }
+
 .pop_up .second section:last-child {
    margin-bottom: 10rem;
 }
+
 .pop_up .second section h2 {
    align-self: flex-start;
    font-size: 2rem;
    font-weight: 500;
    margin-bottom: 2rem;
 }
+
 .pop_up .second section p {
    text-align: left;
    font-size: 1.25rem;
@@ -429,14 +440,16 @@ main .cards_content #left_slider {
    line-height: 1.5rem;
    word-spacing: 0.3rem;
 }
+
 .pop_up .second section img {
    width: 100%;
 }
+
 .pop_up .second section .img_content {
    overflow: hidden;
    object-fit: cover;
 
-   margin: 4rem 0 0.5rem ;
+   margin: 4rem 0 0.5rem;
 
    aspect-ratio: 2/1;
    width: 60%;
@@ -455,16 +468,19 @@ footer {
    align-items: center;
    gap: 1rem;
 }
+
 footer a {
    text-decoration: none;
    color: #f9f9f9b8;
 
    transition: all 0.2s;
 }
+
 footer a:hover {
    color: #f9f9f9;
    text-decoration: underline;
 }
+
 footer span {
    display: flex;
    gap: 1.5rem;
