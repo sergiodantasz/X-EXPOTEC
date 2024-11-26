@@ -1,93 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-.third section{
-    margin:0;
+.third section div {
+  padding: 8rem;
 }
 
-.third h1{
-    margin:0;
-    color: white;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-size: 3rem;
-    /* font-family: "Inter", sans-serif; */
+.third h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
-.third p{
-    font-size: 2rem;
-    text-align: justify;
-    color: white;
-    /* font-family: "Inter", sans-serif; */
+.third p {
+  font-size: 2rem;
+  text-align: justify;
+  color: white;
 }
-.third div{
-    margin:0;
-    padding: 50px;
-    width: 100%;
-    height: 100vh;
+.third div {
+  margin: 0;
+  padding: 50px;
+  width: 100%;
+  height: 100vh;
 }
 
 .fundo1 {
-    background: url(../midia/grupo_3/fundo1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(../midia/grupo_3/fundo1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .fundo2 {
-    background: url(../midia/grupo_3/fundo2.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(../midia/grupo_3/fundo2.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .fundo3 {
-    background: url(../midia/grupo_3/fundo3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(../midia/grupo_3/fundo3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .fundo4 {
-    background: url(../midia/grupo_3/fundo4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(../midia/grupo_3/fundo4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .fundo5 {
-    background: url(../midia/grupo_3/fundo5.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(../midia/grupo_3/fundo5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.third .texto1,.texto2{
-    width: 60%;
-    height: 70%;
-}
-.third .texto3{
-    width: 90%;
-    height: 70%;
-}
-.third .texto4{
-    width: 60%;
-    height: 60%;
-}
-.third .texto5,.texto6,.texto7{
-    width: 50%;
-    height: 50%;
-}
-.third .texto8,.texto9,.texto11{
-    width: 50%;
-    height: 60%;
-}
-.third .texto8{
-    font-size: 2rem;
-}
-.third .texto10{
-    width: 50%;
-    height: 50%;
-    font-size: 2rem;
-}
-.third .page1,.page4{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.third .page2,.page3,.page5,.page6,.page7{
-    background-color: rgba(0, 0, 0, 0.7);
-}
-.third .page8,.page9,.page10,.page11{
-    background-color: rgba(0, 0, 0, 0.8);
+
+.page {
+  background-color: rgba(0, 0, 0, 0.9);
 }
