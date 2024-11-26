@@ -12,7 +12,7 @@
     /* font-family: "Inter", sans-serif; */
 }
 .third p{
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: justify;
     color: white;
     /* font-family: "Inter", sans-serif; */
@@ -25,34 +25,34 @@
 }
 
 .fundo1 {
-  background: url(../midia/grupo_3/fundo1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(../midia/grupo_3/fundo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .fundo2 {
-  background: url(../midia/grupo_3/fundo2.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(../midia/grupo_3/fundo2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .fundo3 {
-  background: url(../midia/grupo_3/fundo3.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(../midia/grupo_3/fundo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .fundo4 {
-  background: url(../midia/grupo_3/fundo4.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(../midia/grupo_3/fundo4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .fundo5 {
-  background: url(../midia/grupo_3/fundo5.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(../midia/grupo_3/fundo5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .third .texto1,.texto2{
     width: 60%;
