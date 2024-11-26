@@ -276,6 +276,7 @@ main .cards_content #left_slider {
    z-index: 1;
 
    height: 97vh;
+   width: 98.5vw;
    max-width: fit-content;
 
    border-radius: 18px;
