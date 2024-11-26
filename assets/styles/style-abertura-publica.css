@@ -7,7 +7,7 @@
   display: flex;
   font-size: 30px;
   justify-content: center;
-  padding: 2rem;
+  padding: 8rem;
 }
 
 .paragraf {
@@ -72,13 +72,13 @@
 #sociais .title-three h3 {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 8rem;
 }
 
 #constituicao .title-three h3 {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 8rem;
 }
 
 #referencias .paragraf-text {
@@ -86,4 +86,8 @@
   text-align: justify;
   margin: 0 auto;
   padding: 1rem;
+}
+
+.section-space {
+  padding: 8rem;
 }
