@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .third section{
     margin:0;
@@ -25,44 +25,34 @@
 }
 
 .fundo1 {
-    width: 100%;
-    height: 100vh;
-    background: url(../midia/grupo_3/fundo1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(../midia/grupo_3/fundo1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fundo2{
-    width: 100%;
-    height: 100vh;
-    background: url(../midia/grupo_3/fundo2.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fundo2 {
+  background: url(../midia/grupo_3/fundo2.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fundo3{
-    width: 100%;
-    height: 100vh;
-    background: url(../midia/grupo_3/fundo3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fundo3 {
+  background: url(../midia/grupo_3/fundo3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fundo4{
-    width: 100%;
-    height: 100vh;
-    background: url(../midia/grupo_3/fundo4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fundo4 {
+  background: url(../midia/grupo_3/fundo4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fundo5{
-    width: 100%;
-    height: 100vh;
-    background: url(../midia/grupo_3/fundo5.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fundo5 {
+  background: url(../midia/grupo_3/fundo5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .third .texto1,.texto2{
     width: 60%;
