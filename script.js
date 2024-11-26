@@ -13,7 +13,7 @@ grupos.forEach(grupo => {
         Artigo = document.querySelector(ClassName);
         Artigo.style.display = "block";
 
-        if (grupo.id == 'first') {
+        if (grupo.id == 'first' || grupo.id == 'third') {
             BtnVoltar = document.getElementById('btn_voltar');
             BtnVoltar.classList.remove('cor_default');
             BtnVoltar.classList.add('cor_branca');
