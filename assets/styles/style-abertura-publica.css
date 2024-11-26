@@ -19,7 +19,7 @@
 
 #introduction .paragraf p {
   text-indent: 4rem;
-  width: 80rem;
+  width: auto;
 }
 
 #introduction .paragraf-2 {
@@ -31,7 +31,7 @@
 }
 
 #introduction .paragraf-2 p {
-  width: 80rem;
+  width: auto;
 }
 
 .content-ul {
@@ -40,7 +40,7 @@
 }
 
 .list-ul {
-  width: 80rem;
+  width: auto;
 }
 
 .content-li {
@@ -54,17 +54,17 @@
 }
 
 .title-three h3 {
-  width: 80rem;
+  width: auto;
 }
 
 .title-three h4 {
-  width: 80rem;
+  width: auto;
   padding-bottom: 1rem;
 }
 
 .para-main {
   text-indent: 4rem;
-  width: 80rem;
+  width: auto;
   padding-top: 2rem;
   text-align: justify;
 }
