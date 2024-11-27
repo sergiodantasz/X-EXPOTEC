@@ -1,4 +1,4 @@
-.content {
+.forth {
   line-height: 1.5;
   font-size: 20px;
 }
@@ -7,14 +7,13 @@
   display: flex;
   font-size: 30px;
   justify-content: center;
-  padding: 5rem;
+  margin-bottom: 1.7rem;
 }
 
 .paragraf {
   display: flex;
   justify-content: center;
   text-align: justify;
-  padding-bottom: 1rem;
 }
 
 #introduction .paragraf p {
@@ -36,7 +35,8 @@
 
 .content-ul {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  padding-top: 2rem;
 }
 
 .list-ul {
@@ -49,8 +49,9 @@
 
 .title-three {
   display: flex;
-  justify-content: center;
-  padding-top: 2rem;
+  justify-content: start;
+  font-style: italic;
+  padding-top: 1.5rem;
 }
 
 .title-three h3 {
@@ -59,7 +60,8 @@
 
 .title-three h4 {
   width: auto;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .para-main {
@@ -72,22 +74,20 @@
 #sociais .title-three h3 {
   display: flex;
   justify-content: center;
-  padding: 5rem;
-}
-
-#constituicao .title-three h3 {
-  display: flex;
-  justify-content: center;
-  padding: 5rem;
 }
 
 #referencias .paragraf-text {
-  width: 70rem;
+  width: auto;
   text-align: justify;
   margin: 0 auto;
   padding: 1rem;
 }
 
 .section-space {
-  padding: 5rem;
+  padding: 2rem 8rem 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
