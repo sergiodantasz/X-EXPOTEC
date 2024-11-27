@@ -4,7 +4,7 @@
   padding: 8rem;
 }
 
-.third h1 {
+.third h1,h4 {
   color: white;
   font-size: 3rem;
   font-weight: 500;
@@ -65,7 +65,14 @@
 .opacidade {
   background-color: rgba(0, 0, 0, 0.9);
 }
+.opacidade_cabecalho{
+  background-color: rgba(0, 0, 0, 0.67)
+}
 .referencias p{
   margin-bottom: 1em;
   font-size: 1.3rem;
+}
+
+.cabecalho p{
+  margin-bottom: 0.5em;
 }
