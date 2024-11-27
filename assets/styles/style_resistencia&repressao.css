@@ -4,7 +4,7 @@
   padding: 8rem;
 }
 
-.third h1,h4 {
+.third h1,.third h4 {
   color: white;
   font-size: 3rem;
   font-weight: 500;
