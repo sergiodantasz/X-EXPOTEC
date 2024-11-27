@@ -11,7 +11,7 @@
   margin-bottom: 5rem;
 }
 .third p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: justify;
   color: white;
 }
@@ -28,7 +28,7 @@
 }
 
 .imagem-gp-3 {
-  height: 500px;
+  height: 450px;
 }
 
 .fundo1 {
@@ -64,4 +64,8 @@
 
 .opacidade {
   background-color: rgba(0, 0, 0, 0.9);
+}
+.referencias p{
+  margin-bottom: 1em;
+  font-size: 1.3rem;
 }
