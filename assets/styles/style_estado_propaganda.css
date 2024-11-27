@@ -73,7 +73,11 @@
 .size-img {
    border-radius: 9px;
 }
-.size-img:nth-child(2) {
+.size-img-2:nth-child(2) {
+   width: 60%;
+}
+
+.size-img2-:nth-child(2) {
    width: 60%;
 }
 
