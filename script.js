@@ -81,3 +81,27 @@ ScrollReveal().reveal('.gp2', { delay: 400 });
 ScrollReveal().reveal('.gp3', { delay: 500 });
 ScrollReveal().reveal('.gp4', { delay: 600 });
 ScrollReveal().reveal('.gp5', { delay: 700 });
+
+// ScrollReveal para página 1
+// DESISTO DESSA PRR, IMPOSSÍVEL
+// ScrollReveal({
+//     origin: 'top',
+//     distance: '50px',
+//     reset: true,
+//     duration: 1000
+// })
+// ScrollReveal().reveal('.container-estado-propaganda', {
+//     duration: 1000
+// });
+// ScrollReveal().reveal('.overlay', {
+//     duration: 1000
+// });
+// ScrollReveal().reveal('.title-img-container', {
+//     duration: 1000
+// });
+// ScrollReveal().reveal('.content-container-es-prp', {
+//     duration: 1000
+// });
+// ScrollReveal().reveal('.pop_up', {
+//     duration: 1000
+// });
