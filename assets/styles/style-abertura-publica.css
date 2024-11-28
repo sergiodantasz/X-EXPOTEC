@@ -87,7 +87,47 @@
   padding: 2rem 8rem 0;
 }
 
-.center {
+.forth .center {
   display: flex;
   justify-content: center;
+}
+
+#govern .paragraf {
+  align-items: center;
+  gap: 2rem;
+}
+
+#govern .para-main {
+  padding-top: 0;
+}
+
+#govern .img-politica {
+  width: 150%;
+  height: 25rem;
+}
+
+#govern .img-politica:hover {
+  transform: scale(1.1);
+}
+
+.forth .img-politica {
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: transform 0.5s;
+}
+
+.img-politica :hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 1220px) {
+  .paragraf {
+    flex-direction: column;
+  }
+
+  #govern .img-politica {
+    width: 100%;
+  }
 }
