@@ -367,15 +367,13 @@ main .cards_content #left_slider {
 }
 
 #voltar i {
+   color: #1e1e1e6e;
+
    transition: all 0.3s;
 }
 
-.cor_default {
-   color: #1e1e1e6e;
-}
-
-#voltar:hover .cor_default {
-   color: #1e1e1e;
+#voltar:hover {
+   color: #000000;
 
    transform: scale(1.2);
 }
