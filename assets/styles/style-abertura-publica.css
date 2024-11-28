@@ -39,10 +39,6 @@
   padding-top: 2rem;
 }
 
-.list-ul {
-  width: auto;
-}
-
 .content-li {
   padding: 0.3rem;
 }
@@ -54,10 +50,6 @@
   padding-top: 1.5rem;
 }
 
-.title-three h3 {
-  width: auto;
-}
-
 .title-three h4 {
   width: auto;
   padding-top: 1rem;
@@ -66,7 +58,6 @@
 
 .para-main {
   text-indent: 4rem;
-  width: auto;
   padding-top: 2rem;
   text-align: justify;
 }
@@ -95,6 +86,7 @@
 #govern .paragraf {
   align-items: center;
   gap: 2rem;
+  max-width: 45rem;
 }
 
 #govern .para-main {
@@ -102,7 +94,6 @@
 }
 
 #govern .img-politica {
-  width: 150%;
   height: 25rem;
 }
 
@@ -110,7 +101,7 @@
   transform: scale(1.1);
 }
 
-.forth .img-politica {
+.img-politica {
   overflow: hidden;
   object-fit: cover;
   width: 100%;
@@ -118,7 +109,12 @@
   transition: transform 0.5s;
 }
 
-.img-politica :hover {
+.content-father {
+  display: flex;
+  gap: 4rem;
+}
+
+.img-politica .img-politica :hover {
   transform: scale(1.5);
 }
 
