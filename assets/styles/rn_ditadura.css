@@ -1,5 +1,6 @@
 .fifth {
   padding: 8rem;
+  font-size: 1.25rem;
 }
 
 .titulo {
@@ -29,12 +30,16 @@
   display: block;
 }
 
-.mb {
+.mb-1 {
   margin-bottom: 1rem;
 }
 
 .mb-2 {
   margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
 }
 
 .img img {
@@ -43,7 +48,6 @@
 }
 
 .img {
-  width: min-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,4 +61,41 @@
 
 .referencias p {
   margin-bottom: 1rem;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 1200px) {
+  .fifth {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fifth {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .img img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .img img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .img img {
+    height: 200px;
+  }
 }
