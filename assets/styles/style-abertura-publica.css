@@ -87,7 +87,7 @@
   padding: 2rem 8rem 0;
 }
 
-.center {
+.forth .center {
   display: flex;
   justify-content: center;
 }
@@ -110,7 +110,7 @@
   transform: scale(1.1);
 }
 
-.img {
+.forth .img {
   overflow: hidden;
   object-fit: cover;
   width: 100%;

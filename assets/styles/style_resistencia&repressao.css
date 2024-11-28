@@ -24,7 +24,6 @@
 .conteudo {
   display: flex;
   gap: 5rem;
-  align-items: center;
 }
 
 .imagem-gp-3 {
@@ -44,5 +43,6 @@
 @media (max-width: 1350px) {
   .conteudo {
     flex-direction: column;
+    align-items: center;
   }
 }
