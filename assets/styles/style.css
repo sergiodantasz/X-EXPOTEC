@@ -333,6 +333,7 @@ main .cards_content #left_slider {
    align-items: center;
 
    background-image: url(../midia/fundo.jpeg);
+   filter: brightness(1.1);
    background-size: cover;
 
    animation: aparecer 0.3s;
@@ -492,6 +493,78 @@ main .cards_content #left_slider {
 .sixth {
    padding: 4rem 8rem;
 }
+
+/* CARD DE AUDIO  */
+.content .second #exposicao-musical > div{
+   margin-top: 3.5rem;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 10%;
+}
+.audio_content {
+   width: 25%;
+   aspect-ratio: 1/1;
+
+   border: 1px solid #1e1e1e42;
+
+   display: flex;
+}
+.background_audio_1 {
+   background: url(../midia/grupo_2/audio_1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.background_audio_2 {
+   background: url(../midia/grupo_2/audio_2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.audio_content .playaudio_content {
+   display: flex;
+
+   align-self: flex-end;
+
+   width: 100%;
+   height: 25%;
+
+   padding-top: 8%;
+   padding-right: 5%;
+
+   align-items: center;
+
+   background: rgb(30,30,30);
+   background: linear-gradient(0deg, rgba(30,30,30,1) 25%, rgba(255,255,255,0) 100%);
+   opacity: 0;
+
+   transition: all 0.2s;
+}
+.audio_content:hover .playaudio_content {
+   opacity: 1;
+}
+.audio_content .playaudio_content span {
+   width: 26px;
+   aspect-ratio: 1/1;
+   margin: 0 5%;
+}
+.audio_content .playaudio_content .progress_bar {
+   width: 100%;
+   height: 5px;
+   background-color: #f9f9f968;
+   border-radius: 30px;
+   overflow: hidden;
+}
+.audio_content 
+.playaudio_content 
+.progress_bar 
+.progress {
+   height: 100%;
+   background-color: #f9f9f9f7;
+   width: 0%;
+}
+
 
 /* FOOTER  */
 footer {

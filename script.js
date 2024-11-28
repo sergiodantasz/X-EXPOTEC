@@ -63,6 +63,52 @@ InfoRoom.forEach(link => {
     };
 });
 
+const PlayPauseUM = document.getElementById('play_pause1');
+const PlayPauseDois = document.getElementById('play_pause2');
+const AudioUm = document.getElementById('audio_1');
+const AudioDois = document.getElementById('audio_2');
+const ProgressoUm = document.getElementById('progress_1');
+const ProgressoDois = document.getElementById('progress_2');
+var LigDesAudio = true;
+
+
+PlayPauseUM.onclick = () => {
+    if (LigDesAudio) {
+        PlayPauseUM.classList.remove('fa-play');
+        PlayPauseUM.classList.add('fa-pause');
+        LigDesAudio = false;
+        AudioUm.play();
+    } else {
+        PlayPauseUM.classList.remove('fa-pause');
+        PlayPauseUM.classList.add('fa-play');
+        LigDesAudio = true;
+        AudioUm.pause();
+    }
+    AudioUm.addEventListener('timeupdate', () => {
+        const { duration, currentTime } = AudioUm;
+        const progressParent = (currentTime / duration) * 100;
+        ProgressoUm.style.width = `${progressParent}%`
+    });
+};
+PlayPauseDois.onclick = () => {
+    if (LigDesAudio) {
+        PlayPauseDois.classList.remove('fa-play');
+        PlayPauseDois.classList.add('fa-pause');
+        LigDesAudio = false;
+        AudioDois.play();
+    } else {
+        PlayPauseDois.classList.remove('fa-pause');
+        PlayPauseDois.classList.add('fa-play');
+        LigDesAudio = true;
+        AudioDois.pause();
+    }
+    AudioDois.addEventListener('timeupdate', () => {
+        const { duration, currentTime } = AudioDois;
+        const progressParent = (currentTime / duration) * 100;
+        ProgressoDois.style.width = `${progressParent}%`
+    });
+};
+
 ScrollReveal().reveal('.hero');
 ScrollReveal().reveal('.gp1', { delay: 300 });
 ScrollReveal().reveal('.gp2', { delay: 400 });

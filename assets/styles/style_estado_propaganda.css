@@ -28,7 +28,7 @@
    line-height: 1.5rem;
 }
 
-.color_white p{
+.color_white p {
    font-size: 1.3rem;
 }
 
@@ -55,6 +55,14 @@
 .title-estado-propaganda {
    font-size: 2rem;
    font-weight: 500;
+   line-height: 3rem;
+}
+
+.title-estado-propaganda1 {
+   font-size: 2rem;
+   font-weight: 600;
+   text-align: center;
+
 }
 
 .title-estado-propaganda_h2 {
@@ -75,6 +83,7 @@
 .size-img {
    border-radius: 9px;
 }
+
 .size-img-2:nth-child(2) {
    width: 60%;
 }
@@ -91,7 +100,16 @@
    background-color: #dddddd;
 }
 
-/* Responsividade para tablets */ @media (max-width: 768px) { 
+.pop_up .first header {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: 4rem 0;
+   padding: 0 8rem;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
    .overlay {
       flex-direction: column;
    }
@@ -103,12 +121,18 @@
    .title-estado-propaganda_h2 {
       font-size: 1.3rem;
    }
-   .size-img { width: 100%; height: auto; }
 
-} /* Responsividade para celulares */
+   .size-img {
+      width: 100%;
+      height: auto;
+   }
+
+}
+
+/* Responsividade para celulares */
 @media (max-width: 480px) {
    .overlay {
-   flex-direction: column;
+      flex-direction: column;
    }
 
    .title-estado-propaganda {
@@ -122,7 +146,10 @@
    .content-container-es-prp {
       padding: 1rem;
    }
-   
-   .size-img { width: 50%; height: auto; }
+
+   .size-img {
+      width: 50%;
+      height: auto;
+   }
 
 }
