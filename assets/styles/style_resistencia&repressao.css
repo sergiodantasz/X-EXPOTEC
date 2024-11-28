@@ -4,7 +4,8 @@
   padding: 8rem;
 }
 
-.third h1,.third h4 {
+.third h1,
+.third h4 {
   color: black;
   font-size: 2rem;
   font-weight: 500;
@@ -31,12 +32,11 @@
   height: 450px;
 }
 
-.referencias p{
+.referencias p {
   margin-bottom: 1em;
   font-size: 1.3rem;
 }
 
-.cabecalho p{
+.cabecalho p {
   margin-bottom: 0.5em;
 }
-
