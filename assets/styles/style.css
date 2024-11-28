@@ -380,16 +380,6 @@ main .cards_content #left_slider {
    transform: scale(1.2);
 }
 
-.cor_branca {
-   color: #f9f9f9b8;
-}
-
-#voltar:hover .cor_branca {
-   color: #fff;
-
-   transform: scale(1.2);
-}
-
 #voltar:hover::before {
    content: "voltar";
    position: absolute;
@@ -397,10 +387,6 @@ main .cards_content #left_slider {
    letter-spacing: 1px;
 
    transform: translatey(24px);
-}
-
-.v_style:hover::before {
-   color: #fff;
 }
 
 .voltar {
