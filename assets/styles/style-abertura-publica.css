@@ -91,3 +91,43 @@
   display: flex;
   justify-content: center;
 }
+
+#govern .paragraf {
+  align-items: center;
+  gap: 2rem;
+}
+
+#govern .para-main {
+  padding-top: 0;
+}
+
+#govern .img {
+  width: 150%;
+  height: 25rem;
+}
+
+#govern .img:hover {
+  transform: scale(1.1);
+}
+
+.img {
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: transform 0.5s;
+}
+
+.img :hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 1220px) {
+  .paragraf {
+    flex-direction: column;
+  }
+
+  #govern .img {
+    width: 100%;
+  }
+}
