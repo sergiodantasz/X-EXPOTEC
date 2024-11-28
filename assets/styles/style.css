@@ -372,7 +372,7 @@ main .cards_content #left_slider {
    transition: all 0.3s;
 }
 
-#voltar:hover {
+#voltar:hover i {
    color: #000000;
 
    transform: scale(1.2);
