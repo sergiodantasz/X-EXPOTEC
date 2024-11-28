@@ -12,10 +12,6 @@ grupos.forEach(grupo => {
     
         Artigo = document.querySelector(ClassName);
         Artigo.style.display = "block";
-        BtnVoltar = document.getElementById('btn_voltar');
-        BtnVoltar.classList.remove('cor_branca');
-        BtnVoltar.classList.add('cor_default');
-        btnVoltar.classList.remove('v_style');
     };
 });
 
@@ -64,11 +60,6 @@ InfoRoom.forEach(link => {
         pop_up.style.display = 'flex';
         InfoSala = document.querySelector('.sixth');
         InfoSala.style.display = "block";
-
-        BtnVoltar = document.getElementById('btn_voltar');
-        BtnVoltar.classList.remove('cor_branca');
-        BtnVoltar.classList.add('cor_default');
-        btnVoltar.classList.remove('v_style');
     };
 });
 

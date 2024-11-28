@@ -367,25 +367,13 @@ main .cards_content #left_slider {
 }
 
 #voltar i {
+   color: #1e1e1e6e;
+
    transition: all 0.3s;
 }
 
-.cor_default {
-   color: #1e1e1e6e;
-}
-
-#voltar:hover .cor_default {
-   color: #1e1e1e;
-
-   transform: scale(1.2);
-}
-
-.cor_branca {
-   color: #f9f9f9b8;
-}
-
-#voltar:hover .cor_branca {
-   color: #fff;
+#voltar:hover {
+   color: #000000;
 
    transform: scale(1.2);
 }
@@ -397,10 +385,6 @@ main .cards_content #left_slider {
    letter-spacing: 1px;
 
    transform: translatey(24px);
-}
-
-.v_style:hover::before {
-   color: #fff;
 }
 
 .voltar {
