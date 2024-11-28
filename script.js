@@ -12,18 +12,10 @@ grupos.forEach(grupo => {
     
         Artigo = document.querySelector(ClassName);
         Artigo.style.display = "block";
-
-        if (grupo.id == 'first' || grupo.id == 'third') {
-            BtnVoltar = document.getElementById('btn_voltar');
-            BtnVoltar.classList.remove('cor_default');
-            BtnVoltar.classList.add('cor_branca');
-            btnVoltar.classList.add('v_style');
-        } else {
-            BtnVoltar = document.getElementById('btn_voltar');
-            BtnVoltar.classList.remove('cor_branca');
-            BtnVoltar.classList.add('cor_default');
-            btnVoltar.classList.remove('v_style');
-        }
+        BtnVoltar = document.getElementById('btn_voltar');
+        BtnVoltar.classList.remove('cor_branca');
+        BtnVoltar.classList.add('cor_default');
+        btnVoltar.classList.remove('v_style');
     };
 });
 
