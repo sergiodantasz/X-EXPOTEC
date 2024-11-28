@@ -1,6 +1,6 @@
 .forth {
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #introduction .title {
@@ -14,6 +14,7 @@
   display: flex;
   justify-content: center;
   text-align: justify;
+  flex-wrap: wrap;
 }
 
 #introduction .paragraf p {
@@ -97,16 +98,17 @@
   height: 25rem;
 }
 
-#govern .img-politica:hover {
-  transform: scale(1.1);
+.img-politica {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
-.img-politica {
+.img-politica img {
   overflow: hidden;
   object-fit: cover;
   width: 100%;
   border-radius: 0.5rem;
-  transition: transform 0.5s;
 }
 
 .content-father {
@@ -114,12 +116,13 @@
   gap: 4rem;
 }
 
-.img-politica .img-politica :hover {
-  transform: scale(1.5);
+.components {
+  padding: 0 20%;
+  font-size: 16px;
 }
 
 @media (max-width: 1220px) {
-  .paragraf {
+  .content-father {
     flex-direction: column;
   }
 
