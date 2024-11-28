@@ -127,6 +127,7 @@ main .cards_content #left_slider {
 .hero .top_hero a:hover {
    text-decoration: underline;
 }
+
 .hero .top_hero span {
    height: 100%;
    display: flex;
@@ -134,6 +135,7 @@ main .cards_content #left_slider {
    align-items: center;
    gap: 64px;
 }
+
 .hero .top_hero::after {
    content: "";
 
@@ -147,11 +149,13 @@ main .cards_content #left_slider {
 
    box-shadow: 7px -28px 0 5px var(--cor-fundo);
 }
-.hero > span {
+
+.hero>span {
    display: flex;
    background-color: #fdfdfd;
    border-radius: 25px;
 }
+
 .hero .top_half {
    display: flex;
 
@@ -327,6 +331,9 @@ main .cards_content #left_slider {
    flex-direction: column;
    justify-content: flex-end;
    align-items: center;
+
+   background-image: url(../midia/fundo.jpeg);
+   background-size: cover;
 
    animation: aparecer 0.3s;
    transition: all 0.5s;
