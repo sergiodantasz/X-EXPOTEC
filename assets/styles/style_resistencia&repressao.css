@@ -5,15 +5,15 @@
 }
 
 .third h1,.third h4 {
-  color: white;
-  font-size: 3rem;
+  color: black;
+  font-size: 2rem;
   font-weight: 500;
   margin-bottom: 5rem;
 }
 .third p {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-align: justify;
-  color: white;
+  color: black;
 }
 .third div {
   margin: 0;
@@ -31,43 +31,6 @@
   height: 450px;
 }
 
-.fundo1 {
-  background: url(../midia/grupo_3/fundo1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.fundo2 {
-  background: url(../midia/grupo_3/fundo2.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.fundo3 {
-  background: url(../midia/grupo_3/fundo3.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.fundo4 {
-  background: url(../midia/grupo_3/fundo4.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.fundo5 {
-  background: url(../midia/grupo_3/fundo5.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.opacidade {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-.opacidade_cabecalho{
-  background-color: rgba(0, 0, 0, 0.67)
-}
 .referencias p{
   margin-bottom: 1em;
   font-size: 1.3rem;
@@ -76,3 +39,4 @@
 .cabecalho p{
   margin-bottom: 0.5em;
 }
+
