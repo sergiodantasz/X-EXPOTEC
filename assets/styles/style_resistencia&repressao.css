@@ -46,3 +46,30 @@
     align-items: center;
   }
 }
+@media (max-width: 965px){
+  .imagem-responsiva{
+    height: auto;
+    width: 80%;
+  }
+}
+
+@media(max-width:825px){
+  .imagem-responsiva{
+    height: auto;
+    width: 90%;
+  }
+}
+
+@media(max-width:585px){
+  .imagem-responsiva{
+    height: auto;
+    width: 95%;
+  }
+}
+
+@media(max-width:748px){
+  .imagem-gp-3{
+    height: auto;
+    width:85%;
+  }
+}
