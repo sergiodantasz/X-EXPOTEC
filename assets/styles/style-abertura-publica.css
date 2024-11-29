@@ -96,6 +96,7 @@
 
 #govern .img-politica {
   height: 25rem;
+  width: 30rem;
 }
 
 .img-politica {
@@ -114,6 +115,7 @@
 .content-father {
   display: flex;
   gap: 4rem;
+  justify-content: space-around;
 }
 
 .components {
