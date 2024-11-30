@@ -90,15 +90,6 @@
   max-width: 45rem;
 }
 
-#govern .para-main {
-  padding-top: 0;
-}
-
-#govern .img-politica {
-  height: 25rem;
-  width: 30rem;
-}
-
 .img-politica {
   display: flex;
   gap: 1rem;
@@ -126,9 +117,5 @@
 @media (max-width: 1220px) {
   .content-father {
     flex-direction: column;
-  }
-
-  #govern .img-politica {
-    width: 100%;
   }
 }
