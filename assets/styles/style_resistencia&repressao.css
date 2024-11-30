@@ -42,6 +42,7 @@
 .foto-legenda p{
   text-align: left;
   font-size: 1.1rem;
+  padding-top: 10px;
 }
 
 @media (max-width: 1350px) {
