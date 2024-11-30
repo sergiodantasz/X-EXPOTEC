@@ -320,9 +320,8 @@ main .cards_content #left_slider {
    position: fixed;
    z-index: 1;
 
-   height: 97vh;
-   width: 98.5vw;
-   max-width: fit-content;
+   height: 100%;
+   width: 100%;
 
    border-radius: 18px;
    background-color: #f9f9f9;
