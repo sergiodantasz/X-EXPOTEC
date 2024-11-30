@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-.third section div {
+.third section div:not(.foto-legenda) {
   padding: 8rem;
 }
 
@@ -38,6 +38,10 @@
 
 .cabecalho p {
   margin-bottom: 0.5em;
+}
+.foto-legenda p{
+  text-align: left;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 1350px) {
