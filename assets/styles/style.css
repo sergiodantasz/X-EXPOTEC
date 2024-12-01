@@ -40,8 +40,9 @@ main>.cards_content::-webkit-scrollbar {
 }
 
 main .cards_content .cards {
-   display: grid;
-   grid-template-columns: repeat(5, 353px);
+   display: flex;
+   /* display: grid;
+   grid-template-columns: repeat(5, 353px); */
 
    gap: 6px;
 
@@ -174,44 +175,6 @@ main .cards_content #left_slider {
    letter-spacing: 1px;
 }
 
-/* .top_hero::before {
-   content: "";
-
-   width: 50px;
-   aspect-ratio: 1/1;
-
-   position: absolute;
-
-   right: 7.405%;
-   align-self: flex-end;
-
-   border-radius: 0 0 0 50%;
-   background-color: transparent;
-   box-shadow: -18px 18px 0 var(--hero-color);
-}
-
-.top_hero::after {
-   content: "IFRN - CN";
-   display: flex;
-
-   width: 118px;
-   height: 40px;
-
-   position: absolute;
-
-   right: 32px;
-   align-self: center;
-
-   align-items: center;
-   justify-content: center;
-
-   border-radius: 28px;
-
-   color: #fdfdfd;
-   font-weight: 500;
-   letter-spacing: 1px;
-} */
-
 .hero .bottom_hero {
    display: flex;
 
@@ -322,7 +285,7 @@ main .cards_content #left_slider {
    z-index: 1;
 
    height: 97vh;
-   width: 98.5vw;
+   width: 98.5%;
    max-width: fit-content;
 
    border-radius: 18px;
@@ -439,6 +402,10 @@ main .cards_content #left_slider {
    font-size: 2rem;
    font-weight: 600;
    text-align: center;
+}
+
+.pop_up .second header h2 {
+   width: 60%;
 }
 
 .pop_up .second header h3 {
