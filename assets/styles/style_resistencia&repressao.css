@@ -38,6 +38,7 @@
 
 .cabecalho p {
   margin-bottom: 0.5em;
+  text-align: left;
 }
 .foto-legenda p{
   text-align: center;
