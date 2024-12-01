@@ -38,17 +38,21 @@
 
 .cabecalho p {
   margin-bottom: 0.5em;
+  text-align: left;
 }
 .foto-legenda p{
-  text-align: left;
+  text-align: center;
   font-size: 1.1rem;
   padding-top: 10px;
 }
+
 
 @media (max-width: 1350px) {
   .conteudo {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
 @media (max-width: 965px){

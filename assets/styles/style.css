@@ -40,7 +40,8 @@ main>.cards_content::-webkit-scrollbar {
 }
 
 main .cards_content .cards {
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(5, 353px);
 
    gap: 6px;
 
