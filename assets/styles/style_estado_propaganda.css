@@ -173,13 +173,47 @@
    }
 
    .referencias-esp-prp {
+      display: flex;
+      align-items: center;
+      justify-items: center;
       max-width: 90%;
       font-size: 1rem;
+      padding: 0 2.5rem;
    }
 
    .referencias-esp-prp p{
-      max-width: 50%;
-      font-size: 1rem;
+      font-size: 0.9rem;
+      line-height: 1.1rem;
    }
+
+   .pop_up .first header {
+      padding: 0 2.5rem;
+  }
+  .pop_up .first header h1 {
+      font-size: 1rem;
+  }
+  .pop_up .first header h2 {
+      width: 80%;
+      font-size: 0.7rem;
+  }
+  .pop_up .first header h3 {
+      font-size: 0.8rem;
+  }
+  .pop_up .first section {
+      padding: 0 2.5rem;
+  }
+  .pop_up .first section h2 {
+      font-size: 1.2rem;
+  }
+  .pop_up .first section h4 {
+      font-size: 0.8rem;
+  }
+  .pop_up .first section h5 {
+      font-size: 0.8rem;
+  }
+  .pop_up .first section p {
+      font-size: 0.9rem;
+      line-height: 1.1rem;
+  }
 
 }
