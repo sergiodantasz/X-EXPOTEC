@@ -1,5 +1,7 @@
 @import './style.css';
 
+
+
 /* LAP TOP */
 @media screen and (max-width: 1024px) {
 
@@ -51,6 +53,13 @@
     }
     footer a {
         font-size: 0.8rem;
+    }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+    main .hero .top_half {
+        font-size: 1rem;
     }
 }
 
