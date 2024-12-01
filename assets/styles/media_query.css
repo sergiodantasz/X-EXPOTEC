@@ -7,4 +7,27 @@
     }
 }
 
+/* CELULAR  */
+@media screen and (max-width: 425px) {
+    main {
+        grid-template-rows: 516px auto;
+    }
+    main>.cards_content {
+        overflow: visible;
+    }
+    main .cards_content .cards {
+        flex-direction: column;
+    }
+    .arq {
+        width: 100%;
+        height: 516px;
+    }
+    .arq h1 {
+        font-size: 3rem;
+    }
+    main .cards_content .scroll_slide {
+        display: none;
+    }
+}
+
 /* COMPUTADOR */
