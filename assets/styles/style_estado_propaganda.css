@@ -102,6 +102,12 @@
    gap: 2rem;
 }
 
+.referencias-esp-prp {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   flex-wrap: wrap;
+}
 
 /* Responsividade para tablets */
 @media (max-width: 768px) {
@@ -115,7 +121,7 @@
    }
 
    .size-img {
-      width: 80%;
+      width: 100%;
       height: auto;
    }
 
@@ -141,7 +147,7 @@
    }
 
    .size-img {
-      width: 77%;
+      width: 100%;
       height: auto;
    }
 
@@ -162,12 +168,18 @@
    }
 
    .size-img {
-      width: 50%;
+      width: 100%;
       height: auto;
    }
 
-   .referencias {
+   .referencias-esp-prp {
       max-width: 90%;
+      font-size: 1rem;
+   }
+
+   .referencias-esp-prp p{
+      max-width: 50%;
+      font-size: 1rem;
    }
 
 }
