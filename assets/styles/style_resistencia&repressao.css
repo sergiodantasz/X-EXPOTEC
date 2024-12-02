@@ -82,3 +82,23 @@
     width:85%;
   }
 }
+
+@media(max-width:480px){
+  .third h1, h4{
+    font-size: 1.2rem;
+  }
+  .cabecalho h4{
+    font-size: 1.2rem;
+  }
+  .third p, .referencias p, .cabecalho p{
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .foto-legenda p{
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .third section div:not(.foto-legenda) {
+    padding: 2.5rem;
+  }
+}
