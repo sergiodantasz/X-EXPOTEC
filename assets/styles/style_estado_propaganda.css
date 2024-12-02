@@ -96,7 +96,7 @@
    padding: 0 8rem;
 }
 
-.especial{
+.especial {
    display: flex;
    flex-direction: column;
    gap: 2rem;
@@ -107,6 +107,21 @@
    flex-direction: column;
    gap: 2rem;
    flex-wrap: wrap;
+}
+
+.pop_up .first section p {
+   text-align: left;
+   font-size: 1.25rem;
+   font-weight: 400;
+   text-indent: 3rem;
+   line-height: 1.5rem;
+   word-spacing: 0.3rem;
+}
+
+.content-container-es-prp {
+   display: flex;
+   flex-direction: column;
+   gap: 4rem;
 }
 
 /* Responsividade para tablets */
@@ -179,39 +194,51 @@
       font-size: 1rem;
    }
 
-   .referencias-esp-prp p{
+   .referencias-esp-prp p {
       font-size: 0.9rem;
       line-height: 1.1rem;
    }
 
    .pop_up .first header {
       padding: 0 2.5rem;
-  }
-  .pop_up .first header h1 {
+   }
+
+   .pop_up .first header h1 {
       font-size: 1rem;
-  }
-  .pop_up .first header h2 {
+   }
+
+   .pop_up .first header h2 {
       width: 80%;
       font-size: 0.7rem;
-  }
-  .pop_up .first header h3 {
+   }
+
+   .pop_up .first header h3 {
       font-size: 0.8rem;
-  }
-  .pop_up .first section {
+   }
+
+   .pop_up .first section {
       padding: 0 2.5rem;
-  }
-  .pop_up .first section h2 {
+   }
+
+   .pop_up .first section h2 {
       font-size: 1.2rem;
-  }
-  .pop_up .first section h4 {
+   }
+
+   .pop_up .first section h4 {
       font-size: 0.8rem;
-  }
-  .pop_up .first section h5 {
+   }
+
+   .pop_up .first section h5 {
       font-size: 0.8rem;
-  }
-  .pop_up .first section p {
+   }
+
+   .pop_up .first header span {
+      font-size: 0.8rem;
+   }
+
+   .pop_up .first section p {
       font-size: 0.9rem;
       line-height: 1.1rem;
-  }
+   }
 
 }

@@ -34,6 +34,10 @@
   width: auto;
 }
 
+#govern .img-politica img {
+  height: 25rem;
+}
+
 .content-ul {
   display: flex;
   justify-content: start;
@@ -63,9 +67,36 @@
   text-align: justify;
 }
 
+#constituicao .img-book {
+  width: 42rem;
+  padding-top: 2rem;
+}
+
+.figure-text {
+  text-align: center;
+  font-size: 16px;
+}
+
 #sociais .title-three h3 {
   display: flex;
   justify-content: center;
+}
+
+#sociais .img-lula {
+  width: 50%;
+  padding-top: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+#sociais .p-lula {
+  width: 60%;
+  text-align: center;
+  padding-top: 1.2rem;
+  font-size: 16px;
+}
+
+#pressao .img-popu {
+  width: 42rem;
 }
 
 #referencias .paragraf-text {
@@ -116,6 +147,55 @@
 
 @media (max-width: 1220px) {
   .content-father {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-space {
+    padding: 2.5rem;
+  }
+
+  .forth p,
+  h5 {
+    font-size: 0.8rem;
+  }
+
+  .title-three h3,
+  h4 {
+    font-size: 1rem;
+  }
+
+  #introduction .title h1 {
+    font-size: 1.2rem;
+  }
+
+  #govern .img-politica img {
+    height: auto;
+  }
+
+  #sociais .img-lula {
+    width: auto;
+  }
+
+  #sociais .p-lula {
+    width: auto;
+    font-size: 0.8rem;
+  }
+
+  #constituicao .img-book {
+    width: auto;
+  }
+
+  #constituicao .figure-text {
+    font-size: 0.8rem;
+  }
+
+  #pressao .img-popu {
+    width: auto;
+  }
+
+  .img-politica {
     flex-direction: column;
   }
 }
