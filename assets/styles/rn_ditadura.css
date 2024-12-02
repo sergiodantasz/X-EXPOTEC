@@ -1,6 +1,6 @@
 .fifth {
   padding: 8rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .titulo {
@@ -31,15 +31,15 @@
 }
 
 .mb-1 {
-  margin-bottom: 1rem;
-}
-
-.mb-2 {
   margin-bottom: 2rem;
 }
 
-.mb-4 {
+.mb-2 {
   margin-bottom: 4rem;
+}
+
+.mb-4 {
+  margin-bottom: 6rem;
 }
 
 .img img {
@@ -64,6 +64,28 @@
   word-break: break-all;
 }
 
+.pop_up .fifth header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.pop_up .fifth header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pop_up .fifth header h2 {
+  width: 60%;
+}
+
+.pop_up .fifth header h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
 @media screen and (max-width: 1200px) {
   .fifth {
     padding: 4rem;
@@ -80,6 +102,17 @@
   .img img {
     height: 400px;
   }
+  .fifth,
+  .pop_up .fifth header h3 {
+    font-size: 1rem;
+  }
+  .titulo,
+  .pop_up .fifth header h1 {
+    font-size: 1.7rem;
+  }
+  .subtitulo {
+    font-size: 1.45rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -91,6 +124,17 @@
 @media screen and (max-width: 400px) {
   .img img {
     height: 250px;
+  }
+  .fifth,
+  .pop_up .fifth header h3 {
+    font-size: 0.8rem;
+  }
+  .titulo,
+  .pop_up .fifth header h1 {
+    font-size: 1.2rem;
+  }
+  .subtitulo {
+    font-size: 1rem;
   }
 }
 
