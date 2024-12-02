@@ -109,6 +109,21 @@
    flex-wrap: wrap;
 }
 
+.pop_up .first section p {
+   text-align: left;
+   font-size: 1.25rem;
+   font-weight: 400;
+   text-indent: 3rem;
+   line-height: 1.5rem;
+   word-spacing: 0.3rem;
+}
+
+.content-container-es-prp {
+   display: flex;
+   flex-direction: column;
+   gap: 4rem;
+}
+
 /* Responsividade para tablets */
 @media (max-width: 768px) {
 
