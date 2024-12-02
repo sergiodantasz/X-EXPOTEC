@@ -297,7 +297,7 @@ main .cards_content #left_slider {
    position: fixed;
    z-index: 1;
 
-   height: 97vh;
+   height: 97%;
    width: 98.5%;
    max-width: fit-content;
 
