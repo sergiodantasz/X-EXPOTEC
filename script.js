@@ -88,12 +88,6 @@ PlayPauseUM.onclick = () => {
         LigDesAudio = true;
         AudioUm.pause();
     }
-    AudioUm.addEventListener('timeupdate', () => {
-        const { duration, currentTime } = AudioUm;
-        const progressParent = (currentTime / duration) * 100;
-        ProgressoUm.style.width = `${progressParent}%`;
-
-    });
 
     AudioUm.addEventListener('timeupdate', () => {
         const { duration, currentTime } = AudioUm;
@@ -146,13 +140,13 @@ PlayPauseDois.onclick = () => {
         LigDesAudio = true;
         AudioDois.pause();
     }
+
     AudioDois.addEventListener('timeupdate', () => {
         const { duration, currentTime } = AudioDois;
         const progressParent = (currentTime / duration) * 100;
         ProgressoDois.style.width = `${progressParent}%`;
-
-        const minutes = Math.floor(duration / 60);
-        let seconds = Math.floor(duration % 60);
+        let minutes = Math.floor(currentTime / 60);
+        let seconds = Math.floor(currentTime % 60);
         if (seconds < 10) {
             seconds = `0${seconds}`;
         }
