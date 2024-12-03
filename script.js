@@ -68,7 +68,11 @@ const PlayPauseDois = document.getElementById('play_pause2');
 const AudioUm = document.getElementById('audio_1');
 const AudioDois = document.getElementById('audio_2');
 const ProgressoUm = document.getElementById('progress_1');
+const BarraProgressoUm = document.getElementById('progress_bar_1');
+const BarraProgressoDois = document.getElementById('progress_bar_2');
 const ProgressoDois = document.getElementById('progress_2');
+const timeAudioUm = document.getElementById('timeAudioUm');
+const timeAudioDois = document.getElementById('timeAudioDois');
 var LigDesAudio = true;
 
 
@@ -87,7 +91,47 @@ PlayPauseUM.onclick = () => {
     AudioUm.addEventListener('timeupdate', () => {
         const { duration, currentTime } = AudioUm;
         const progressParent = (currentTime / duration) * 100;
-        ProgressoUm.style.width = `${progressParent}%`
+        ProgressoUm.style.width = `${progressParent}%`;
+
+    });
+
+    AudioUm.addEventListener('timeupdate', () => {
+        const { duration, currentTime } = AudioUm;
+        const progressParent = (currentTime / duration) * 100;
+        ProgressoUm.style.width = `${progressParent}%`;
+        let minutes = Math.floor(currentTime / 60);
+        let seconds = Math.floor(currentTime % 60);
+        if (seconds < 10) {
+            seconds = `0${seconds}`;
+        }
+        timeAudioUm.textContent = `${minutes}:${seconds}`;
+    });
+
+    BarraProgressoUm.addEventListener('mousedown', (e) => {
+        const {duration} = AudioUm;
+        const progressClick = (e.offsetX / BarraProgressoUm.offsetWidth) * 100;
+        const currentTimeClick = (progressClick * duration) / 100;
+        AudioUm.currentTime = currentTimeClick;
+    });
+
+    BarraProgressoUm.addEventListener('mousedown', (e) => {
+        const {duration} = AudioUm;
+        let mouseMove = (e) => {
+            const progressClick = (e.offsetX / BarraProgressoUm.offsetWidth) * 100;
+            const currentTimeClick = (progressClick * duration) / 100;
+            AudioUm.currentTime = currentTimeClick;
+        };
+        BarraProgressoUm.addEventListener('mousemove', mouseMove);
+        document.addEventListener('mouseup', () => {
+            BarraProgressoUm.removeEventListener('mousemove', mouseMove);
+        });
+    });
+    
+    AudioUm.addEventListener('ended', () => {
+        PlayPauseUM.classList.remove('fa-pause');
+        PlayPauseUM.classList.add('fa-play');
+        LigDesAudio = true;
+        AudioUm.currentTime = 0;
     });
 };
 PlayPauseDois.onclick = () => {
@@ -105,6 +149,39 @@ PlayPauseDois.onclick = () => {
     AudioDois.addEventListener('timeupdate', () => {
         const { duration, currentTime } = AudioDois;
         const progressParent = (currentTime / duration) * 100;
-        ProgressoDois.style.width = `${progressParent}%`
+        ProgressoDois.style.width = `${progressParent}%`;
+
+        const minutes = Math.floor(duration / 60);
+        let seconds = Math.floor(duration % 60);
+        if (seconds < 10) {
+            seconds = `0${seconds}`;
+        }
+        timeAudioDois.textContent = `${minutes}:${seconds}`;
+    });
+
+    BarraProgressoDois.addEventListener('mousedown', (e) => {
+        const {duration} = AudioDois;
+        const progressClick = (e.offsetX / BarraProgressoDois.offsetWidth) * 100;
+        const currentTimeClick = (progressClick * duration) / 100;
+        AudioDois.currentTime = currentTimeClick;    
+    });
+
+    BarraProgressoDois.addEventListener('mousedown', (e) => {
+        const {duration} = AudioDois;
+        let mouseMove = (e) => {    
+            const progressClick = (e.offsetX / BarraProgressoDois.offsetWidth) * 100;
+            const currentTimeClick = (progressClick * duration) / 100;
+            AudioDois.currentTime = currentTimeClick;
+        };
+        BarraProgressoDois.addEventListener('mousemove', mouseMove);
+        document.addEventListener('mouseup', () => {
+            BarraProgressoDois.removeEventListener('mousemove', mouseMove);
+        });
+    });
+    AudioDois.addEventListener('ended', () => {
+        PlayPauseDois.classList.remove('fa-pause');
+        PlayPauseDois.classList.add('fa-play');
+        LigDesAudio = true;
+        AudioDois.currentTime = 0;
     });
 };

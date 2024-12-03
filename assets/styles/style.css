@@ -525,7 +525,7 @@ main .cards_content #left_slider {
 .audio_content:hover .playaudio_content {
    opacity: 1;
 }
-.audio_content .playaudio_content span {
+.audio_content .playaudio_content span:first-child {
    width: 26px;
    aspect-ratio: 1/1;
    margin: 0 5%;
@@ -555,6 +555,20 @@ main .cards_content #left_slider {
 
    padding: 0 8rem;
    margin-bottom: 4rem;
+}
+
+.playaudio_content span:last-child {
+   margin-left: 5%;
+}
+#timeAudioUm {
+   color: #f9f9f9;
+   font-size: 1rem;
+   letter-spacing: 0.15rem;
+}
+#timeAudioDois {
+   color: #f9f9f9;
+   font-size: 1rem;
+   letter-spacing: 0.15rem;
 }
 
 
