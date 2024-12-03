@@ -13,15 +13,16 @@ grupos.forEach(grupo => {
         Artigo = document.querySelector(ClassName);
         Artigo.style.display = "block";
 
-        if (window.innerWidth <= 768) { // Check if the device width is 768px or less
-            window.scrollTo({
-                top: document.body.scrollHeight,
-                behavior: 'smooth'
-            });
-        }
+        setTimeout(() => {
+            if (window.innerWidth <= 768) { // Check if the device width is 768px or less
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            }
+        }, 500);
     };
 });
-
 function LogDoc () {
     Lista = document.querySelectorAll('.volt');
     Lista.forEach(DocT => {
