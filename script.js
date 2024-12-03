@@ -179,3 +179,14 @@ PlayPauseDois.onclick = () => {
         AudioDois.currentTime = 0;
     });
 };
+
+if (window.innerWidth <= 768) { // Check if the device width is 768px or less
+    grupos.forEach(grupo => {
+        grupo.onclick = () => {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+            });
+        };
+    });
+}
