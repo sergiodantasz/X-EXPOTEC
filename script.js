@@ -12,6 +12,13 @@ grupos.forEach(grupo => {
     
         Artigo = document.querySelector(ClassName);
         Artigo.style.display = "block";
+
+        if (window.innerWidth <= 768) { // Check if the device width is 768px or less
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+            });
+        }
     };
 });
 
@@ -182,11 +189,8 @@ PlayPauseDois.onclick = () => {
 
 if (window.innerWidth <= 768) { // Check if the device width is 768px or less
     grupos.forEach(grupo => {
-        grupo.onclick = () => {
-            window.scrollTo({
-                top: document.body.scrollHeight,
-                behavior: 'smooth'
-            });
-        };
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
     });
 }
