@@ -1,5 +1,5 @@
-.third section div:not(.foto-legenda) {
-  padding: 8rem;
+.third section div:not(.foto-legenda, .cabecalho) {
+  padding: 0 8rem 4rem;
 }
 
 .third h1,
@@ -12,6 +12,7 @@
 
 .third p {
   font-size: 1.3rem;
+  letter-spacing: 1px;
   text-align: justify;
   color: black;
 }
@@ -36,9 +37,16 @@
   font-size: 1.3rem;
 }
 
+.cabecalho {
+  padding: 4rem 8rem;
+}
 .cabecalho p {
-  margin-bottom: 0.5em;
   text-align: left;
+  padding: 0 16%; 
+  font-size: 1rem;
+}
+.cabecalho h4 {
+  text-align: center; font-weight: 600; padding: 0 15%;
 }
 
 .foto-legenda p {
@@ -77,6 +85,15 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .cabecalho h4 {
+    padding: 0 1rem;
+  }
+  .cabecalho p {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 748px) {
   .imagem-gp-3 {
     height: auto;
@@ -106,7 +123,33 @@
     text-align: center;
   }
 
-  .third section div:not(.foto-legenda) {
+  .third section div:not(.foto-legenda, .cabecalho) {
     padding: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cabecalho {
+    padding: 4rem 1.5rem 0;
+  }
+  .cabecalho h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+    padding: 0;
+  }
+  .cabecalho p {
+    font-size: 0.6rem;
+  }
+  .third div h1 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media  screen and (max-width: 375px) {
+  .cabecalho h4 {
+    font-size: 1rem;
+  }
+  .third div .cabecalho {
+    padding-bottom: 0;
   }
 }

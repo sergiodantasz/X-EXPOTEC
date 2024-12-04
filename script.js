@@ -193,3 +193,10 @@ PlayPauseDois.onclick = () => {
         AudioDois.currentTime = 0;
     });
 };
+
+// INCREMENTOS - 04/12/2024 
+const Votar = document.getElementById('vote');
+
+Votar.onclick = () => {
+    window.open('https://forms.gle/8QbwmogPy2Tak2MW8', '_blank');
+};

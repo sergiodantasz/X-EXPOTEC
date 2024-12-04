@@ -22,6 +22,12 @@
     main .hero .top_hero {
         width: 85%;
     }
+    .hero .top_hero span {
+        gap: 40px;
+    }
+    .hero .top_hero span #link_vote {
+        width: 180px;
+    }
     main .hero .top_hero span h1 {
         font-size: 1.5rem;
     }
@@ -88,6 +94,21 @@
 
 /* TABLET */
 @media screen and (max-width: 768px) {
+
+    /* INCREMENTOS - 04/12/2024   */
+    #ifrn {
+        display: none;
+    }
+    #vote {
+        display: flex;
+        z-index: 1;
+        text-align: center;
+    }
+    #link_vote {
+        display: none;
+    }
+
+
     main {
         grid-template-rows: 516px 295px;
     }
@@ -112,6 +133,16 @@
 
 /* CELULARES  */
 @media screen and (max-width: 425px) {
+
+    /* INCREMENTOS - 04/12/2024  
+    #ifrn {
+        display: none;
+    }
+    #vote {
+        display: flex;
+        z-index: 1;
+        text-align: center;
+    } */
 
     /* POP UP  */
     .pop_up {
