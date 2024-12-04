@@ -18,6 +18,7 @@ grupos.forEach(grupo => {
         }
         
     };
+
 });
 
 function LogDoc () {
@@ -27,6 +28,15 @@ function LogDoc () {
     });
 }
 
+window.addEventListener("popstate", function(e) { 
+    if (window.innerWidth < 768 && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        pop_up.classList.add('voltar');
+        setTimeout(() => {
+            pop_up.style.display = 'none';
+        }, 300);
+        LogDoc();
+    }
+});
 btnVoltar.onclick = () => {
     pop_up.classList.add('voltar');
     setTimeout(() => {
