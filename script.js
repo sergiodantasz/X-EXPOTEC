@@ -18,6 +18,7 @@ grupos.forEach(grupo => {
         }
         
     };
+
 });
 
 function LogDoc () {
@@ -26,6 +27,14 @@ function LogDoc () {
         DocT.style.display = 'none';
     });
 }
+
+window.addEventListener("popstate", function(e) { 
+    LogDoc();
+    pop_up.classList.add('voltar');
+    setTimeout(() => {
+        pop_up.style.display = 'none';
+    }, 300);
+});
 
 btnVoltar.onclick = () => {
     pop_up.classList.add('voltar');
