@@ -17,25 +17,12 @@
   flex-wrap: wrap;
 }
 
-#introduction .paragraf p {
-  text-indent: 4rem;
-  width: auto;
-}
-
-#introduction .paragraf-2 {
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-#introduction .paragraf-2 p {
-  width: auto;
-}
-
 #govern .img-politica img {
   height: 25rem;
+}
+
+#govern .para-main {
+  padding-top: 0;
 }
 
 .content-ul {
@@ -62,7 +49,7 @@
 }
 
 .para-main {
-  text-indent: 4rem;
+  text-indent: 3rem;
   padding-top: 2rem;
   text-align: justify;
 }
@@ -113,6 +100,7 @@
 .forth .center {
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
 }
 
 #govern .paragraf {
@@ -148,6 +136,22 @@
 @media (max-width: 1220px) {
   .content-father {
     flex-direction: column;
+  }
+
+  .img-politica {
+    flex-direction: column;
+  }
+
+  #pressao .img-popu {
+    width: auto;
+  }
+
+  #govern .img-politica img {
+    height: auto;
+  }
+
+  #constituicao .img-book {
+    width: auto;
   }
 }
 
@@ -197,5 +201,9 @@
 
   .img-politica {
     flex-direction: column;
+  }
+
+  .para-main {
+    text-indent: 1.2rem;
   }
 }
