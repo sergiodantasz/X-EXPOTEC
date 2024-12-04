@@ -12,6 +12,11 @@ grupos.forEach(grupo => {
     
         Artigo = document.querySelector(ClassName);
         Artigo.style.display = "block";
+
+        if (window.innerWidth < 768 && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+        
     };
 });
 
