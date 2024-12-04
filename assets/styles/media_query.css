@@ -58,6 +58,32 @@
     footer a {
         font-size: 0.8rem;
     }
+
+    .pop_up .sixth {
+        padding: 0 4rem;
+    }
+
+    .pop_up .sixth header {
+        padding: 0 1.5rem;
+    }
+    .pop_up .sixth header h1 {
+        font-size: 1.5rem;
+    }
+    .pop_up .sixth header h3 {
+        font-size: 1.2rem;
+    }
+    .pop_up .sixth section {
+        padding: 0 1.5rem;
+    }
+    .pop_up .sixth section h2 {
+        font-size: 1.2rem;
+    }
+    .pop_up .sixth section h3 {
+        font-size: 1rem;
+    }
+    .pop_up .sixth section p {
+        font-size: 0.9rem;
+    }
 }
 
 /* TABLET */
@@ -67,6 +93,20 @@
     }
     main .hero .top_half {
         font-size: 1rem;
+    }
+
+    .pop_up .sixth {
+        padding: 0 2rem;
+    }
+
+    .pop_up .sixth header {
+        padding: 0 1rem;
+    }
+    .pop_up .sixth header h1 {
+        font-size: 1.5rem;
+    }
+    .pop_up .sixth header h2 {
+        font-size: 1.2rem;
     }
 }
 
@@ -184,6 +224,46 @@
     }
     .content .second #exposicao-musical .audio_content .playaudio_content {
         opacity: 1;
+    }
+
+    .pop_up .sixth {
+        padding: 0 2rem;
+    }
+    .pop_up .sixth header {
+        padding: 0 1rem;
+    }
+    .pop_up .sixth header h1 {
+        font-size: 1rem;
+    }
+    .pop_up .sixth header h3 {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .pop_up .sixth section {
+        padding: 0 1rem;
+    }
+    .pop_up .sixth section h2 {
+        font-size: 1rem;
+    }
+    .pop_up .sixth section h4 {
+        font-size: 0.8rem;
+    }
+    .pop_up .sixth section h5 {
+        font-size: 0.8rem;
+    }
+    .pop_up .sixth section p {
+        font-size: 0.8rem;
+        text-indent: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .pop_up .sixth section .img_content {
+        width: 100%;
+    }
+    .pop_up .sixth section ul li h3 {
+        font-size: 1rem;
+    }
+    .pop_up .sixth section ul li h4 {
+        font-size: 0.6rem;
     }
 }
 

@@ -619,8 +619,8 @@ footer span {
 }
 
 .pop_up .sixth header h3 {
-   font-size: 1.2rem;
-   margin-top: 1rem;
+   font-size: 1.5rem;
+   font-weight: 500;
 }
 
 .pop_up .sixth section {
@@ -634,14 +634,14 @@ footer span {
 }
 
 .pop_up .sixth section:last-child {
-   margin-bottom: 10rem;
+   margin-bottom: 6rem;
 }
 
 .pop_up .sixth section h2 {
    align-self: flex-start;
    font-size: 1.5rem;
    font-weight: 500;
-   margin-bottom: 2rem;
+   margin-bottom: 1rem;
 }
 .pop_up .sixth section ul {
    align-self: flex-start;
@@ -669,6 +669,6 @@ footer span {
    font-size: 1.25rem;
    font-weight: 400;
    text-indent: 3rem;
-   line-height: 1.5rem;
+   line-height: 1.8rem;
    word-spacing: 0.3rem;
 }
