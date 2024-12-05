@@ -1,6 +1,17 @@
 @import './style.css';
 
-
+/* COMPUTADORES  */
+/* INCREMENTADO - 04/12/2024  */
+@media screen and (max-width: 1440px) {
+    #voltar:hover::before {
+        content: "voltar";
+        position: absolute;
+    
+        letter-spacing: 1px;
+    
+        transform: translatey(24px);
+    }
+}
 
 /* LAP TOP */
 @media screen and (max-width: 1024px) {
@@ -106,6 +117,18 @@
     }
     #link_vote {
         display: none;
+    }
+
+    #voltar i {
+        color: #1e1e1e;
+    }
+    #voltar::before {
+        content: "voltar";
+        position: absolute;
+    
+        letter-spacing: 1px;
+    
+        transform: translatey(24px);
     }
 
 
